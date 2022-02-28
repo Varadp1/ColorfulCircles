@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #1a1f24;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle1{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 5px solid rgb(216, 33, 192);
+    border-top-color: transparent;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    animation-delay: 0.2s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+
+#circle2{
+    height: 35px;
+    width: 35px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(161, 19, 197);
+    border-top-color: transparent;
+    animation-delay: 0.4s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+
+#circle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(20, 107, 220);
+    border-top-color: transparent;
+    animation-delay: 0.6s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle4{
+    height: 65px;
+    width: 65px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(8, 151, 32);
+    border-top-color: transparent;
+    animation-delay: 0.8s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle5{
+    height: 80px;
+    width: 80px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(127, 220, 20);
+    border-top-color: transparent;
+    animation-delay: 1s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle6{
+    height: 95px;
+    width: 95px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(220, 93, 20);
+    border-top-color: transparent;
+    animation-delay: 1.2s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle7{
+    height: 110px;
+    width: 110px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid crimson;
+    border-top-color: transparent;
+    animation-delay: 1.4s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle8{
+    height: 125px;
+    width: 125px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(87, 31, 31);
+    border-top-color: transparent;
+    animation-delay: 1.6s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle9{
+    height: 140px;
+    width: 140px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgb(53, 26, 26);
+    border-top-color: transparent;
+    animation-delay: 1.8s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle10{
+    height: 155px;
+    width: 155px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgba(29, 19, 21, 0.342);
+    border-top-color: transparent;
+    animation-delay: 2s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+#circle11{
+    height: 170px;
+    width: 170px;
+    border-radius: 5000px;
+    position: absolute;
+    border: 5px solid rgba(0, 0, 0, 0.137);
+    border-top-color: transparent;
+    animation-delay: 2.2s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transform: rotate(40deg);
+}
+
+@keyframes circle {
+    0%{
+        transform: rotate(40deg);
+    }
+    50%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+}
